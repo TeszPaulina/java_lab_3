@@ -34,6 +34,5 @@ enum WielkoscEnum {
     WielkoscEnum(boolean czyDuzy) {
         wielkosc = czyDuzy;
     }
-
 }
 
