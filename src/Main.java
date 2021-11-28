@@ -45,7 +45,9 @@ public class Main {
                 case 6:
                     System.out.println(LiczbyEnum.SZESC);
                     break;
-
+                default:
+                    System.out.println("Liczba spoza zakresu.");
+                    break;
             }
             if (element == 0) {
                 System.out.println(StatusEnum.KONIEC);
