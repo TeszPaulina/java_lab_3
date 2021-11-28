@@ -34,7 +34,6 @@ public class Main {
     }
 }
 
-
 /* Prosta klasa */
 class Pojazd {
     String nazwa;
