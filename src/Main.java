@@ -22,7 +22,7 @@ public class Main {
 
 /* Prosty enum */
 enum KolorEnum {
-    CZERWONY, ZIELONY, NIEBIESKI;
+    CZERWONY, ZIELONY, NIEBIESKI
 }
 
 /* enum z metodą i zmienną */
@@ -34,5 +34,6 @@ enum WielkoscEnum {
     WielkoscEnum(boolean czyDuzy) {
         wielkosc = czyDuzy;
     }
+
 }
 
