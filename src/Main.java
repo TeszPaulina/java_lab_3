@@ -26,6 +26,5 @@ public class Main {
 
         /* wyświetlenie metody toString na objekcie p2 */
         System.out.println(p2.toString());
-
     }
 }
