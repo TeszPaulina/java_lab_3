@@ -26,6 +26,14 @@ public class Main {
         while (true) {
             System.out.println("Podaj liczbe: ");
             int element = scan.nextInt();
+
+            if (element == 0) {
+                System.out.println(StatusEnum.KONIEC);
+                break;
+            } else {
+                System.out.println(StatusEnum.KONTYNUUJEMY);
+            }
+
             switch (element) {
                 case 1:
                     System.out.println(LiczbyEnum.JEDEN);
@@ -50,12 +58,6 @@ public class Main {
                     break;
             }
 
-            if (element == 0) {
-                System.out.println(StatusEnum.KONIEC);
-                break;
-            } else {
-                System.out.println(StatusEnum.KONTYNUUJEMY);
-            }
         }
     }
 }
