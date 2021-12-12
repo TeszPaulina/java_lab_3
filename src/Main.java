@@ -29,6 +29,5 @@ public class Main {
         /* nadpisanie pola punkt z klasy ObjektPunktu */
         objektPunktu.setPunkt(new Punkt(1, 2));
         System.out.println(objektPunktu.dodawanie1()); // 23
-
     }
 }
