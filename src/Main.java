@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,7 +11,6 @@ public class Main {
             - imie (String),
             - nazwisko (String),
             - indeks (Integer)
-
             b) stworzyc konstruktory, gettery i settery
             c) napisać metodę w klasie Osoba która zwróci informację o osobie,
          */
@@ -27,6 +29,14 @@ public class Main {
             b) dodać studentów do Listy ArrayList,
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
+        System.out.println("Ćwiczenie 4");
+        List<Student> Studenci = new ArrayList<>();
 
+        Student student = new Student("Paulina", "Nowak", 23);
+        Studenci.add(student);
+
+        for (Student st : Studenci) {
+            System.out.println(st);
+        }
     }
 }
