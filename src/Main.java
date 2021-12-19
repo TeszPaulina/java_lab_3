@@ -46,5 +46,6 @@ public class Main {
         for (Student st : studenciList) {
             System.out.println(st);
         }
+
     }
 }
