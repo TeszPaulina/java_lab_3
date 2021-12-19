@@ -10,7 +10,7 @@ public class Student {
     private Osoba osoba;
     private WydzialEnum wydzial;
 
-    public Student(String paulina, String nowak, int i) {
+    public Student() {
     }
 
     public Student(Osoba osoba, WydzialEnum wydzial) {

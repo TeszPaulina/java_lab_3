@@ -30,12 +30,20 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
         System.out.println("Ćwiczenie 4");
-        List<Student> Studenci = new ArrayList<>();
+        List<Student> studenciList = new ArrayList<>();
 
-        Student student = new Student("Paulina", "Nowak", 23);
-        Studenci.add(student);
+        Student student = new Student(new Osoba("Ala","Wieszko",45),WydzialEnum.Lekarski);
+        studenciList.add(student);
+        student = new Student(new Osoba("Tomasz","Kowalski",89),WydzialEnum.Matematyki_i_Informatyki);
+        studenciList.add(student);
+        student = new Student(new Osoba("Mateusz","Kalicki",56),WydzialEnum.Sztuk_Pięknych);
+        studenciList.add(student);
+        student = new Student(new Osoba("Maja","Szczesna",12),WydzialEnum.Chemii);
+        studenciList.add(student);
+        student = new Student(new Osoba("Paulina","Jolicka",67),WydzialEnum.Humanistyczny);
+        studenciList.add(student);
 
-        for (Student st : Studenci) {
+        for (Student st : studenciList) {
             System.out.println(st);
         }
     }

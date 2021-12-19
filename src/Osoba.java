@@ -45,10 +45,11 @@ public class Osoba {
         this.indeks = indeks;
     }
 
-    public void Zwroc() {
-        System.out.println("\nDane Osoby:" +
-                "\nImie: " + getImie() +
-                "\nNazwisko: " + getNazwisko() +
-                "\nIndeks: " + getIndeks());
+    @Override
+    public String toString() {
+        return "\nImie: " + imie +
+                "\nNazwisko: " + nazwisko +
+                "\nIndeks: " + indeks;
     }
+
 }
